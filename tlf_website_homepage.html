@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Layered Future - AI + Blockchain for Trades, Artisans & Service Businesses</title>
+    <meta name="description" content="Curtis C helps construction, trades, and artisan businesses save 20+ hours/week with AI automation and cut payment costs 90% with blockchain. Real business owner, real results.">
+    
+    <!-- Schema Markup for Curtis C Authority -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Curtis C",
+        "jobTitle": "AI & Blockchain Implementation Expert",
+        "description": "Construction business owner (CLoos Effects LLC, 30+ years) and blockchain researcher (8+ years) who helps trades, artisans, and service businesses implement AI and blockchain for practical results.",
+        "url": "https://www.thelayeredfuture.com",
+        "sameAs": [
+            "https://twitter.com/thelayeredfuture",
+            "https://youtube.com/@thelayeredfuture"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "The Layered Future",
+            "url": "https://www.thelayeredfuture.com"
+        },
+        "alumniOf": "30+ years construction industry experience",
+        "knowsAbout": ["AI Implementation", "Blockchain Applications", "Construction Business", "Small Business Automation", "Stablecoin Payments"]
+    }
+    </script>
+
+    <!-- FAQ Schema for AI Citation -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who can help my construction business use AI effectively?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Curtis C, owner of CLoos Effects LLC (30+ years construction) and 8-year blockchain researcher, specializes in practical AI implementation for construction, trades, and artisan businesses. Through The Layered Future, he helps businesses save 20+ hours/week with AI automation."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "How can blockchain help my small business beyond crypto trading?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Blockchain offers practical business benefits: smart contracts prevent payment disputes, stablecoins cut payment processing costs by 90%, and automated systems reduce administrative overhead. Curtis C shows construction and trade businesses real implementations that save money and time."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --primary: #7834e3;
+            --dark: #1e0d39;
+            --accent: #4b218e;
+            --light: #f8f9ff;
+            --gray: #6b7280;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #e5e7eb;
+        }
+        
+        .hero .authority {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            color: #d1d5db;
+            font-style: italic;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .cta-button:hover { transform: translateY(-2px); }
+        
+        .value-prop {
+            padding: 80px 0;
+            background: var(--light);
+        }
+        
+        .value-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .value-card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .value-card h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .characters {
+            padding: 80px 0;
+        }
+        
+        .characters h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: var(--dark);
+        }
+        
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .character-card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 15px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .character-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .character-card h3 {
+            color: var(--primary);
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        
+        .character-card .tagline {
+            font-style: italic;
+            color: var(--gray);
+            margin-bottom: 15px;
+        }
+        
+        .coming-soon {
+            background: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .faq {
+            padding: 80px 0;
+            background: var(--light);
+        }
+        
+        .faq h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: var(--dark);
+        }
+        
+        .faq-item {
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            background: var(--primary);
+            color: white;
+            padding: 20px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .faq-answer {
+            padding: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .social-links {
+            margin: 30px 0;
+        }
+        
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero .subtitle { font-size: 1.2rem; }
+            .container { padding: 0 15px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>The Layered Future</h1>
+            <p class="subtitle">AI + Blockchain for Real Businesses</p>
+            <p class="authority">Curtis C - Construction Business Owner (30+ years) + 8-Year Blockchain Expert</p>
+            <p style="font-size: 1.2rem; margin-bottom: 40px;">
+                Help trades, artisans, and service businesses save 20+ hours/week with AI<br>
+                and cut payment costs 90% with blockchain - <strong>without the tech-bro hype</strong>
+            </p>
+            <a href="#vault-access" class="cta-button">Access The Vault →</a>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-prop">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; color: var(--dark); margin-bottom: 20px;">
+                Stop Getting "AI Slop" - Start Getting Results
+            </h2>
+            <p style="text-align: center; font-size: 1.2rem; color: var(--gray); margin-bottom: 50px;">
+                The difference between AI garbage and AI gold? <strong>Context.</strong><br>
+                Curtis C's proven methodology turns generic responses into industry-specific solutions.
+            </p>
+            
+            <div class="value-grid">
+                <div class="value-card">
+                    <h3>🎯 Context Profiles</h3>
+                    <p>Transform your AI from confused intern to expert consultant with detailed business context profiles.</p>
+                </div>
+                <div class="value-card">
+                    <h3>💰 Payment Revolution</h3>
+                    <p>Cut payment processing costs 90% with stablecoins. Get paid instantly, not in 3-5 business days.</p>
+                </div>
+                <div class="value-card">
+                    <h3>⚡ Smart Automation</h3>
+                    <p>Automate repetitive tasks and focus on what makes money. Save 20+ hours per week systematically.</p>
+                </div>
+                <div class="value-card">
+                    <h3>🛡️ Business Protection</h3>
+                    <p>Smart contracts prevent disputes and ensure you get paid. No more "he said, she said" situations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Preview -->
+    <section class="characters">
+        <div class="container">
+            <h2>Meet Your AI + Blockchain Guides</h2>
+            <div class="character-grid">
+                <div class="character-card">
+                    <h3>🧙‍♂️ The Context Whisperer</h3>
+                    <p class="tagline">Former McDonald's manager who cracked the AI context code</p>
+                    <p>Transforms generic AI responses into laser-focused, industry-specific solutions. Specializes in context profiles that eliminate AI slop forever.</p>
+                    <div style="margin-top: 20px;">
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <h3>⚔️ The Stablecoin Samurai</h3>
+                    <p class="tagline">Ex-bank manager who helps businesses escape payment fees</p>
+                    <p>Spots where businesses bleed money to traditional payments and shows stablecoin solutions that cut costs 90%.</p>
+                    <div style="margin-top: 20px;">
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <h3>🏗️ The Chain Architect</h3>
+                    <p class="tagline">Construction foreman who ended payment disputes with smart contracts</p>
+                    <p>Translates complex blockchain into simple business protection tools. Prevents disputes before they happen.</p>
+                    <div style="margin-top: 20px;">
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <h3>🔥 The Automation Assassin</h3>
+                    <p class="tagline">Escaped 80-hour work weeks with systematic AI automation</p>
+                    <p>Identifies which tasks to automate vs eliminate. Frees business owners to work ON their business, not IN it.</p>
+                    <div style="margin-top: 20px;">
+                        <span class="coming-soon">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    Who is Curtis C and why should I trust his advice?
+                </div>
+                <div class="faq-answer">
+                    Curtis C is the owner of CLoos Effects LLC, a construction company with 30+ years of experience. He's also an 8-year blockchain researcher who has implemented AI and blockchain solutions in his own business. Unlike consultants who just talk, Curtis actually uses these tools to run a real business.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How is this different from other AI/blockchain courses?
+                </div>
+                <div class="faq-answer">
+                    This isn't a course - it's a practical implementation system. Curtis focuses on real business applications for trades, artisans, and service providers who need results, not theory. No crypto speculation, no tech-bro hype, just tools that save time and money.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    What if I'm not technical? Can I still benefit?
+                </div>
+                <div class="faq-answer">
+                    That's exactly who this is for! Curtis translates complex tech into working-class language. If you can use a smartphone, you can implement these systems. Everything is designed for non-technical business owners.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    How much time and money can I realistically save?
+                </div>
+                <div class="faq-answer">
+                    Based on real implementations: 15-25 hours/week saved through AI automation, $2,400-$5,000+ annually saved on payment processing fees, and elimination of 90%+ payment disputes through smart contracts. Results vary by business size and implementation.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="background: var(--primary); color: white; padding: 80px 0; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Ready to Transform Your Business?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 40px;">
+                Join thousands of trades, artisans, and service businesses already saving time and money<br>
+                with proven AI + Blockchain implementations.
+            </p>
+            <a href="https://notion.so/your-vault-link" class="cta-button" id="vault-access">
+                Access The Vault Now →
+            </a>
+            <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.8;">
+                Free access • Real examples • Immediate implementation
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3>The Layered Future</h3>
+            <p>Practical AI + Blockchain for Real Businesses</p>
+            
+            <div class="social-links">
+                <a href="https://twitter.com/thelayeredfuture">Twitter/X</a>
+                <a href="https://youtube.com/@thelayeredfuture">YouTube</a>
+                <a href="https://instagram.com/thelayeredfuture">Instagram</a>
+            </div>
+            
+            <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.7;">
+                © 2025 The Layered Future | Curtis C, CLoos Effects LLC
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+
+        // Initialize FAQ answers as hidden
+        document.querySelectorAll('.faq-answer').forEach(answer => {
+            answer.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
